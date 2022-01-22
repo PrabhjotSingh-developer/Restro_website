@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+
+}
+.wrapper{
+    background-color:#f4ede5;
+}
+
+/* navbar brand setting  */
+.brmar{
+  margin:auto 4rem;
+  font-family: 'Montserrat', sans-serif;
+}
+.ahver ul li a:hover{
+    color: red !important;
+    transition: linear .2s all;
+   
+}
+.starting-logo1{
+    width: 100px !important;
+}
+.starting-logo2{
+    width: 100px !important;
+    display: none;
+}
+.flex{
+    display: flex;
+}
+.blfast{
+    margin-top: 2rem;
+}
+.blfast h6{
+    border-right: 2px solid black ;
+    
+}
+.testinomial-slider{
+    height: 500px!important;
+}
+.footer-sysul ul li{
+  list-style: none;
+  
+}
+/* Media queries for some  */
+@media  screen and (max-width:1024px) {
+
+    .mainthreecards{
+        flex-direction: column;
+       justify-content: center;
+       width: 90%;
+    }
+    
+    
+}
+@media  screen and (max-width:780px) {
+
+    .mainthreecards{
+        flex-direction: column;
+       justify-content: center;
+    }
+     
+    
+}
+@media  screen and (max-width:740px) {
+    .footer-sysul ul li{
+        font-size: 12px;
+        
+      }
+}
+@media  screen and (max-width:545px) {
+    .footer-sysul ul li{
+        font-size: 16px;
+        
+      }
+   
+}
+@media  screen and (max-width:990px){
+    .starting-logo1{
+        width: 100px !important; 
+        display: none;
+    }
+    .starting-logo2{
+        width: 100px !important;
+        display: block;
+       
+    }
+    .ahver ul{
+       margin-left: 4rem!important;
+    }
+    .ahver ul li a:hover{
+        color:none;
+        transition: linear .2s all;
+       
+    }
+}
+@media  screen and (max-width:770px){
+    .formheig-photo{
+        height: 550px !important ;
+        background-color: red;
+        z-index: 5;
+    }
+    footer{
+        margin-top: 10rem!important;
+    }
+}
