@@ -59,7 +59,10 @@
         flex-direction: column;
        justify-content: center;
     }
-     
+    .our-menu .rgts{
+        text-align: start !important;
+        margin: auto 2.5rem !important;
+    }
     
 }
 @media  screen and (max-width:740px) {
@@ -101,6 +104,16 @@
         z-index: 5;
     }
     footer{
-        margin-top: 10rem!important;
+        margin-top: 13rem!important;
+    }
+}
+@media  screen and (max-width:430px){
+    .last-fter p{
+        font-size: 12px;
+    }
+}
+@media  screen and (max-width:315px){
+    .last-fter p{
+        font-size: 10px;
     }
 }
