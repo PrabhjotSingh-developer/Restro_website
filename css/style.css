@@ -45,23 +45,29 @@
 /* Media queries for some  */
 @media  screen and (max-width:1024px) {
 
-    .mainthreecards{
-        flex-direction: column;
-       justify-content: center;
-       width: 90%;
-    }
+    .mainthreecards .hidecad1{
+      display: none;
+  }
     
     
 }
 @media  screen and (max-width:780px) {
-
+    .mainthreecards .hidecad2{
+        margin-top: 2rem !important;
+    }
     .mainthreecards{
         flex-direction: column;
-       justify-content: center;
+       justify-content: center!important;
+      align-items: center;
+      width: 100%;
+       
     }
     .our-menu .rgts{
         text-align: start !important;
         margin: auto 2.5rem !important;
+    }
+    .cardsinlist{
+        align-items: center!important;
     }
     
 }
@@ -99,13 +105,13 @@
 }
 @media  screen and (max-width:770px){
     .formheig-photo{
-        height: 550px !important ;
         width: 300px!important;
-        background-color: red;
+        height: 535px !important ;
+        
         z-index: 5;
     }
     footer{
-        margin-top: 11rem!important;
+        margin-top: 12rem!important;
     }
 }
 @media  screen and (max-width:430px){
